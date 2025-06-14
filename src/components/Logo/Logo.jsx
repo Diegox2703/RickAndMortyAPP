@@ -1,4 +1,4 @@
-import pageLogo from '../../assets/images/page_logo.png'
+import pageLogo from '../../assets/images/page-logo.png'
 import styles from './Logo.module.css'
 
 export default function Logo({ size }) {
