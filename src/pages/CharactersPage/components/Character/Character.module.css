@@ -1,0 +1,11 @@
+.character {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media screen and (width < 700px) {
+    .character {
+        flex-direction: column;
+    }
+}

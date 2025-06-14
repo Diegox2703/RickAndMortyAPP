@@ -1,0 +1,17 @@
+.characters_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+.more_content_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (width < 500px) {
+    .characters_container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}

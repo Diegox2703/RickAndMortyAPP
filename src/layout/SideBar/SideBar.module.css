@@ -1,0 +1,21 @@
+.side_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    position: fixed;
+    background-color: var(--secondary-background-color);
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    padding: 10px;
+    z-index: 10;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+}

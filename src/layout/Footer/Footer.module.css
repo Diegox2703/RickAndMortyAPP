@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--secondary-background-color);
+    height: 200px;
+
+    .social_media_container {
+        display: flex;
+        gap: 10px;
+
+        .social_media_btn {
+            color: var(--tertiary-color);
+            font-size: 30px;
+
+            &:hover {
+                color: var(--secondary-color);
+            }
+        }
+    }
+}

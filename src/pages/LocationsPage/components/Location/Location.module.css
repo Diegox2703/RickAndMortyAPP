@@ -1,0 +1,9 @@
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    background-color: var(--secondary-background-color);
+    border-radius: 5px;
+    padding: 10px;
+}

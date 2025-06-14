@@ -1,0 +1,1 @@
+export const getFirstItems = (array, count = 5) => array.slice(0, count) 

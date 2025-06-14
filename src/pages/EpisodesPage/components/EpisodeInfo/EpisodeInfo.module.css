@@ -1,0 +1,31 @@
+.episode_info_section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .createdAt {
+        color: var(--tertiary-color);
+    }
+
+    .episode_name {
+        color: var(--primary-color);
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .episode_description {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .episode_label {
+            color: var(--tertiary-color);
+        }
+
+        .value {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 20px;
+        }
+    }
+}

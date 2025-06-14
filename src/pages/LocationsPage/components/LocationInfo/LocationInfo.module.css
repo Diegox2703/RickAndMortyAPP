@@ -1,0 +1,31 @@
+.location_info_section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .createdAt {
+        color: var(--tertiary-color);
+    }
+
+    .location_name {
+        color: var(--primary-color);
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .location_description {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .location_label {
+            color: var(--tertiary-color);
+        }
+
+        .value {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 20px;
+        }
+    }
+}

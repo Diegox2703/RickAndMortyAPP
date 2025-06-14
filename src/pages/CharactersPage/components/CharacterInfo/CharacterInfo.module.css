@@ -1,0 +1,82 @@
+.character_info_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-basis: 300px;
+    height: 300px;
+    background-color: var(--secondary-background-color);
+    padding: 10px;
+
+    .character_name_section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .createdAt {
+            color: var(--tertiary-color);
+        }
+
+        .character_name {
+            font-size: 30px;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .character_status_container {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .status {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            
+            &.Alive {
+                background-color: var(--secondary-color);
+                box-shadow: 0px 0px 10px var(--secondary-color);
+            }
+
+            &.Dead {
+                background-color: var(--dead-color);
+                box-shadow: 0px 0px 10px var(--dead-color);
+            }
+            
+            &.unknown {
+                background-color: var(--unknown-color);
+                box-shadow: 0px 0px 10px var(--unknown-color);
+            }
+        }
+
+        .character_status {
+            margin: 0;
+            color: var(--primary-color);
+        }
+    }
+
+    .character_description_section {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .character_description {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .character_label {
+                color: var(--tertiary-color);
+            }
+    
+            .value {
+                color: var(--primary-color);
+                margin: 0;
+                font-size: 20px;
+            }
+        }
+
+    }
+}
