@@ -10,6 +10,7 @@
     width: 200px;
     transition: background-color .2s ease-in-out;
     border-radius: 8px;
+    font-family: "Jersey 15", sans-serif;
     
     &.primary {
         background-color: var(--secondary-color);

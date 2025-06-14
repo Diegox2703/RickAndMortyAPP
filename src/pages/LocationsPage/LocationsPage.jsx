@@ -27,7 +27,7 @@ export default function LocationsPage() {
       {
         hasNextPage &&
         <div className={styles.more_content_btn}>
-          <IconTextButton icon={faArrowDown} size={'md'} isDisabled={isFetchingNextPage} onClickFn={fetchNextPage}>
+          <IconTextButton icon={faArrowDown} size={'lg'} isDisabled={isFetchingNextPage} onClickFn={fetchNextPage}>
             Mas ubicaciones
           </IconTextButton>
         </div>

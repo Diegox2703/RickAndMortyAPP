@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styles from './Button.module.css'
 import { faCircleNotch } from '@fortawesome/free-solid-svg-icons'
+import styles from './Button.module.css'
 
 export default function Button({ variant = 'primary', size = 'md', children, onClickFn, isDisabled }) {
   return (
